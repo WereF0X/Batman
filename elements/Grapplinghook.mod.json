@@ -1,0 +1,51 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "unnamed_8",
+    "customModelName": "Normal",
+    "name": "Grappling Hook",
+    "specialInfo": [
+      "Batman's Grappling Hook"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:BatMod"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "GrapplinghookRangedItemUsed"
+    },
+    "bulletPower": 0.65,
+    "bulletDamage": 3.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Grapplinghook"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "GrapplinghookProjectileHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "GrapplinghookProjectileHitsBlock"
+    },
+    "onBulletFlyingTick": {
+      "name": "GrapplinghookProjectileHitsBlock"
+    }
+  }
+}

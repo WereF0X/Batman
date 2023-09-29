@@ -1,0 +1,23 @@
+{
+  "item.batman_mod.grapplinghook": "Grappling Hook",
+  "item.batman_mod.batman_fists": "BatFists",
+  "gui.batman_mod.batcomputergui.button_space_suit": "Space Suit",
+  "item.batman_mod.space_suit_leggings": "Space Suit Leggings",
+  "item.batman_mod.bat_key": "BatKey",
+  "block.batman_mod.bat_computer": "BatComputer",
+  "item.batman_mod.batman_helmet": "Batman Helmet",
+  "gui.batman_mod.batcomputergui.label_batcomputer": "BATCOMPUTER",
+  "item.batman_mod.batarang": "Batarang",
+  "item.batman_mod.batman_chestplate": "Batman Chestplate",
+  "item.batman_mod.batman_leggings": "Batman Leggings",
+  "gui.batman_mod.batcomputergui.button_batfists_supply": "BatFists Supply",
+  "gui.batman_mod.batcomputergui.button_grappling_hook_supply": "Grappling Hook Supply",
+  "item.batman_mod.batman_boots": "Batman Boots",
+  "gui.batman_mod.batcomputergui.button_batkit": "BatKit",
+  "item_group.batman_mod.bat_mod": "BatMod",
+  "item.batman_mod.space_suit_helmet": "Space Suit Helmet",
+  "item.batman_mod.space_suit_chestplate": "Space Suit Chestplate",
+  "gui.batman_mod.batkeygui.label_insert_batkey": "INSERT BATKEY",
+  "gui.batman_mod.batcomputergui.button_batarang_supply": "Batarang Supply",
+  "item.batman_mod.space_suit_boots": "Space Suit Boots"
+}

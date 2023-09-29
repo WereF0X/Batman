@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "batman_mod:block/under",
+    "up": "batman_mod:block/screen",
+    "north": "batman_mod:block/under",
+    "east": "batman_mod:block/under",
+    "south": "batman_mod:block/under",
+    "west": "batman_mod:block/under",
+    "particle": "batman_mod:block/under"
+  },
+  "render_type": "solid"
+}

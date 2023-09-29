@@ -1,0 +1,484 @@
+{
+  "mod_elements": [
+    {
+      "name": "BatMod",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bat_mod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BatmanFists",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batman_fists",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/batmanmod/item/BatmanFistsItem.java",
+          "src/main/resources/assets/batman_mod/models/item/batman_fists.json"
+        ]
+      }
+    },
+    {
+      "name": "Batarang",
+      "type": "rangeditem",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batarang",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/batman_mod/models/item/batarang.json",
+          "src/main/java/net/mcreator/batmanmod/item/BatarangItem.java",
+          "src/main/java/net/mcreator/batmanmod/entity/BatarangEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "BatComputer",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bat_computer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/batman_mod/models/block/bat_computer.json",
+          "src/main/java/net/mcreator/batmanmod/block/BatComputerBlock.java",
+          "src/main/resources/assets/batman_mod/blockstates/bat_computer.json",
+          "src/main/resources/assets/batman_mod/models/item/bat_computer.json"
+        ]
+      }
+    },
+    {
+      "name": "Givebatarang",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "givebatarang",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/batmanmod/procedures/GivebatarangProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Batfists",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batfists",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/batmanmod/procedures/BatfistsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Batkit",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batkit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/batmanmod/procedures/BatkitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Batcomputergui",
+      "type": "gui",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batcomputergui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/batmanmod/network/BatcomputerguiButtonMessage.java",
+          "src/main/java/net/mcreator/batmanmod/world/inventory/BatcomputerguiMenu.java",
+          "src/main/java/net/mcreator/batmanmod/client/gui/BatcomputerguiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "BatKey",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bat_key",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/batmanmod/item/BatKeyItem.java",
+          "src/main/resources/assets/batman_mod/models/item/bat_key.json"
+        ]
+      }
+    },
+    {
+      "name": "Batkeygui",
+      "type": "gui",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batkeygui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/batmanmod/client/gui/BatkeyguiScreen.java",
+          "src/main/java/net/mcreator/batmanmod/network/BatkeyguiSlotMessage.java",
+          "src/main/java/net/mcreator/batmanmod/world/inventory/BatkeyguiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Keycheck",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "keycheck",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/batmanmod/procedures/KeycheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BatComputerOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bat_computer_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/batmanmod/procedures/BatComputerOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpaceSuit",
+      "type": "armor",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_suit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/batman_mod/models/item/space_suit_helmet.json",
+          "src/main/resources/assets/batman_mod/models/item/space_suit_chestplate.json",
+          "src/main/resources/assets/batman_mod/models/item/space_suit_boots.json",
+          "src/main/resources/assets/batman_mod/models/item/space_suit_leggings.json",
+          "src/main/java/net/mcreator/batmanmod/item/SpaceSuitItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Armor",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/batmanmod/procedures/ArmorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Batman",
+      "type": "armor",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batman",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/batman_mod/models/item/batman_helmet.json",
+          "src/main/resources/assets/batman_mod/models/item/batman_chestplate.json",
+          "src/main/java/net/mcreator/batmanmod/item/BatmanItem.java",
+          "src/main/resources/assets/batman_mod/models/item/batman_leggings.json",
+          "src/main/resources/assets/batman_mod/models/item/batman_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "GrapplinghookProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grapplinghook_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/batmanmod/procedures/GrapplinghookProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Grapplinghook",
+      "type": "rangeditem",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grapplinghook",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/batmanmod/item/GrapplinghookItem.java",
+          "src/main/resources/assets/batman_mod/models/item/grapplinghook.json",
+          "src/main/java/net/mcreator/batmanmod/entity/GrapplinghookEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Spacesuitg",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spacesuitg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/batmanmod/procedures/SpacesuitgProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Grapplinghooksupply",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grapplinghooksupply",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/batmanmod/procedures/GrapplinghooksupplyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Batcomputerr",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batcomputerr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/batman_mod/recipes/batcomputerr.json"
+        ]
+      }
+    },
+    {
+      "name": "Batkeyr",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batkeyr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/batman_mod/recipes/batkeyr.json"
+        ]
+      }
+    },
+    {
+      "name": "Batarangr",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batarangr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/batman_mod/recipes/batarangr.json"
+        ]
+      }
+    },
+    {
+      "name": "GrapplinghookRangedItemUsed",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grapplinghook_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/batmanmod/procedures/GrapplinghookRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.batman_mod.grapplinghook": "Grappling Hook",
+      "item.batman_mod.batman_fists": "BatFists",
+      "gui.batman_mod.batcomputergui.button_space_suit": "Space Suit",
+      "item.batman_mod.space_suit_leggings": "Space Suit Leggings",
+      "item.batman_mod.bat_key": "BatKey",
+      "block.batman_mod.bat_computer": "BatComputer",
+      "item.batman_mod.batman_helmet": "Batman Helmet",
+      "gui.batman_mod.batcomputergui.label_batcomputer": "BATCOMPUTER",
+      "item.batman_mod.batarang": "Batarang",
+      "item.batman_mod.batman_chestplate": "Batman Chestplate",
+      "item.batman_mod.batman_leggings": "Batman Leggings",
+      "gui.batman_mod.batcomputergui.button_batfists_supply": "BatFists Supply",
+      "gui.batman_mod.batcomputergui.button_grappling_hook_supply": "Grappling Hook Supply",
+      "item.batman_mod.batman_boots": "Batman Boots",
+      "gui.batman_mod.batcomputergui.button_batkit": "BatKit",
+      "item_group.batman_mod.bat_mod": "BatMod",
+      "item.batman_mod.space_suit_helmet": "Space Suit Helmet",
+      "item.batman_mod.space_suit_chestplate": "Space Suit Chestplate",
+      "gui.batman_mod.batkeygui.label_insert_batkey": "INSERT BATKEY",
+      "gui.batman_mod.batcomputergui.button_batarang_supply": "Batarang Supply",
+      "item.batman_mod.space_suit_boots": "Space Suit Boots"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "batman_mod",
+    "modName": "Batman Mod",
+    "version": "1.0.0",
+    "author": "The_WereF0X",
+    "websiteURL": "https://discord.gg/9uqXBM2Gus",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "The_WereF0X",
+    "modElementsPackage": "net.mcreator.batmanmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
